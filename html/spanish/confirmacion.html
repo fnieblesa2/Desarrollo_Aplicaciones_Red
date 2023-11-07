@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/home/legion/Desktop/Desarrollo_Aplicaciones_Red/CSS/styles.css">
+    <title>Confirmation - Colombian Restaurant</title>
+</head>
+<body>
+    <header>
+        <img src="/home/legion/Desktop/Desarrollo_Aplicaciones_Red/images/logo.png" alt="Restaurant Logo">
+        <nav>
+            <ul> <!-- Enlaces a las páginas principales -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="confirmacion.html">Confirmación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="confirmation"> <!-- Formulario con la información necesaria para confirmar la reserva -->
+        <h1>Confirmación de la Reserva</h1>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="last-name">Apellido:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Fecha de la Reserva:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="num-people">Número de Personas:</label>
+            <input type="number" id="num-people" name="num-people" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
